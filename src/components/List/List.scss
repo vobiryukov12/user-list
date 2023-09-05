@@ -1,0 +1,31 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  &__item {
+    padding: 20px;
+    min-width: 300px;
+    border: 1px solid #eeeeee;
+    transition: background-color 0.3s ease;
+
+    &:first-of-type {
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+
+    &:last-of-type {
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    &:hover {
+      background-color: #2E9AFF;
+      cursor: pointer;
+    }
+
+    &--active {
+      background-color: #2E9AFF;
+    }
+  }
+}

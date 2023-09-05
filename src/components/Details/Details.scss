@@ -1,0 +1,36 @@
+.details {
+  overflow: hidden;
+  width: 302px;
+
+  &__img {
+    border: 1px solid #eeeeee;
+  }
+
+  &__item {
+    padding: 20px;
+    border: 1px solid #eeeeee;
+  }
+
+  &__item:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  &__img {
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  &__name {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
